@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite parallel="tests" name="Suite1">
+
+<Listeners>
+
+<Listener class="FrameWorkSeleniumDesign.FrameWorkSelenium.BaseTestComopents.TestNGListeners" />
+
+</Listeners>
+  <test thread-count="5" name="Submit order test">
+    <classes>
+    <class name="FrameWorkSelenium.test.StandaloneDesign2PageObject"/>
+      </classes>
+      </test>
+      
+      <test thread-count="5" name="Error Validations Test">
+      <classes>
+      <class name="FrameWorkSelenium.test.ErrorValidations"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

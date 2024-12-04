@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <test thread-count="5" parallel="tests" name="ErrorValidations(failed)">
+    <groups>
+      <run>
+        <include name="ErrorHangling"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="FrameWorkSelenium.test.ErrorValidations">
+        <methods>
+          <include name="launchApplicatio"/>
+          <include name="closeBrowser"/>
+          <include name="ErrorsubmitOrder"/>
+        </methods>
+      </class> <!-- FrameWorkSelenium.test.ErrorValidations -->
+    </classes>
+  </test> <!-- ErrorValidations(failed) -->
+</suite> <!-- Failed suite [Suite] -->
